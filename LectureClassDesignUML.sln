@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LectureClassDesignUML", "LectureClassDesignUML\LectureClassDesignUML.csproj", "{55DC1DD8-312D-4856-8C78-75B2A200322E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{55DC1DD8-312D-4856-8C78-75B2A200322E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55DC1DD8-312D-4856-8C78-75B2A200322E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55DC1DD8-312D-4856-8C78-75B2A200322E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55DC1DD8-312D-4856-8C78-75B2A200322E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {888C9583-3AD3-439D-8842-C168A769A2F7}
+	EndGlobalSection
+EndGlobal
