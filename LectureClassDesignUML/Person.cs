@@ -8,29 +8,29 @@ namespace LectureClassDesignUML
 {
     class Person {
 
-        public string? Name { get; set; }
-        public int? Age { get; set; }
-        public Gender Gender { get; set; }
-        public Person(string name, int age, Gender gender)
-        {
-            Name = name;
-            Age = age;
-            Gender = gender;
+        //public string? Name { get; set; }
+        //public int? Age { get; set; }
+        //public Gender Gender { get; set; }
+        //public Person(string name, int age, Gender gender)
+        //{
+        //    Name = name;
+        //    Age = age;
+        //    Gender = gender;
 
-        }
-        public string Greet()
-        {
-            return $"say hello";
-        }
-        public string Describe()
-        {
-            return $"this is whom I am";
-        }
-        public double EvaluateEquation(string equation)
-        {
-            string Equation = equation;
-            return EvaluateEquation(Equation);
-        }
+        //}
+        //public string Greet()
+        //{
+        //    return $"say hello";
+        //}
+        //public string Describe()
+        //{
+        //    return $"this is whom I am";
+        //}
+        //public double EvaluateEquation(string equation)
+        //{
+        //    string Equation = equation;
+        //    return EvaluateEquation(Equation);
+        //}
 
 
         //public Person()
@@ -53,12 +53,14 @@ namespace LectureClassDesignUML
 
 
         // Methods
-        //    public int Hight { get; set; }
-        //    public int Weight { get; set; }
-        //    public string? Name { get; set; }
-        //    public void Greet(Person otherPerson) {
-        //        Console.Write($"Hello,{otherPerson.Name}!");
-        //    }
+        public int Hight { get; set; }
+        public int Weight { get; set; }
+        public string? Name { get; set; }
+        public void Greet(Person otherPerson)
+        {
+            Console.Write($"Hello,{otherPerson.Name}!");
+        }
+        public double Addition(double numA, double numB) { return numA + numB; }
     }
     enum Gender
     {

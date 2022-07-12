@@ -5,21 +5,22 @@
     {
         static void Main(string[] args)
         {
-            Person p1 = new Person("Nisse", 33, Gender.Male);
-            Person p2 = new Person("Nissa", 45, Gender.Female);
-            Person p3 = new Person("Lisa", 54, Gender.Female);
+            //Person p1 = new Person("Nisse", 33, Gender.Male);
+            //Person p2 = new Person("Nissa", 45, Gender.Female);
+            //Person p3 = new Person("Lisa", 54, Gender.Female);
 
-            List<Person> pers = new List<Person>();
-            pers.Add(p1); 
-            pers.Add(p2); 
-            pers.Add(p3);
-            foreach (Person item in pers)
-            {
-                Console.WriteLine(item.Age);
-                Console.WriteLine(item.Name);
-                Console.WriteLine(item.Gender);
-            }
+            //List<Person> pers = new List<Person>();
+            //pers.Add(p1); 
+            //pers.Add(p2); 
+            //pers.Add(p3);
+            //foreach (Person item in pers)
+            //{
+            //    Console.WriteLine(item.Age);
+            //    Console.WriteLine(item.Name);
+            //    Console.WriteLine(item.Gender);
+            //}
             
+            public double Addition(double numA, double numB)
 
             //Tank myTank = new Tank("Str S1", 3,"big gun");
             ////myTank.Name = "Str S1";
